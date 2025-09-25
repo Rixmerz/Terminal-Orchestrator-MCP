@@ -1,0 +1,17 @@
+{
+  "mcpServers": {
+    "terminal-orchestrator-mcp": {
+      "command": "node",
+      "args": ["/Users/juanpablodiaz/my_projects/HANA/terminal-orchestrator-mcp/dist/index.js"],
+      "cwd": "/Users/juanpablodiaz/my_projects/HANA/terminal-orchestrator-mcp",
+      "env": {
+        "LOG_LEVEL": "info",
+        "LOG_DIRECTORY": "/Users/juanpablodiaz/my_projects/HANA/terminal-orchestrator-mcp/logs",
+        "MAX_LOG_SIZE": "104857600",
+        "SESSION_TIMEOUT": "86400000",
+        "ENABLE_LOGGING": "true",
+        "STORAGE_DIRECTORY": "/Users/juanpablodiaz/my_projects/HANA/terminal-orchestrator-mcp/storage"
+      }
+    }
+  }
+}
